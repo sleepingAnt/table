@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:id="@+id/linearLayout1"
+	android:weightSum="1"
+	android:gravity="center" android:orientation="vertical" android:background="@drawable/pic_main_sys_bg">
+	<FrameLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"  android:layout_gravity="center" android:layout_weight="0.4">
+		<LinearLayout android:id="@+id/linearLayout2"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:background="@drawable/round_shap_main_bt"
+			android:layout_height="fill_parent">
+
+			<Button android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginTop="20dp"
+				android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+				android:layout_weight="1" android:text="获取数据" android:textSize="25sp" android:background="@drawable/login_bt_shap" android:id="@+id/btn_ctrl_panel_backup"></Button>
+			<Button android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginRight="8dp"
+				android:layout_marginLeft="8dp" android:layout_weight="1"
+				android:text="删除数据" android:textSize="25sp" android:background="@drawable/login_bt_shap" android:id="@+id/btn_ctrl_panel_delete"></Button>
+			<Button android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="8dp"
+				android:layout_marginRight="8dp" android:layout_weight="1"
+				android:text="获取位置" android:textSize="25sp" android:background="@drawable/login_bt_shap" android:id="@+id/btn_ctrl_panel_get_gps"></Button>
+
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

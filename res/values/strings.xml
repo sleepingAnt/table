@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">蚂蚁防盗</string>
+    <string name="bt_login_txt">系统设置</string>
+    <string name="bt_ctrl_txt">远程控制</string>
+    <string name="login_pwd_txt">登录密码:</string>
+    <string name="login_bt_txt">确定</string>
+    <string name="new_pwd_txt">新密码</string>
+    <string name="ensure_new_pwd_txt">确认新密码</string>
+    <string name="txt_reset">清空</string>
+    <string name="txt_login_please">请登录</string>
+    <string name="txt_ctrl_description">此处要填写的手机号码为您要控制的手机端正在使用的号码;要填写的密码即为您所要控制的手机端所设置的登录密码。
+	</string>
+    <string name="btnmanual">在地图上显示</string>
+    <string name="btnsettimespace">设置时间间隔</string>
+    <string name="btnexit">关闭</string>
+    <string name="ettimespacehint">秒</string>
+    <string name="tv_tip_set_sms">提示：当您手机更换SIM卡后系统会自动发送消息到此安全手机号码。您可以设置两个安全手机号（推荐）。</string>
+    <string name="tv_tip_set_mail">提示：当手机丢失后,发送相关数据到此邮箱。你可以设置两个安全邮箱,以达到最佳安全状态。（推荐）</string>
+    <string name="txt_sure">确定</string>
+    <string name="txt_about_1">此版本适用于Android 2.1及2.1以上操作系统系列手机，对于在其他操作系统平台的手机上使用本软件，出现任何问题，本人不承担任何责任。</string>
+    <string name="txt_about_2">本软件完全由anT个人开发，未经本人同意不得用于任何商业用途。欢迎使用！联系邮箱：sleeping_ant@qq.com</string>
+
+</resources>

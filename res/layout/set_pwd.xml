@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:weightSum="1" android:layout_width="fill_parent"
+	android:background="@color/bt_pressed_color" android:layout_height="fill_parent">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:text="设置新密码" android:layout_gravity="center_horizontal" android:layout_marginTop="30dip" android:textSize="26sp" android:layout_marginBottom="20dip"></TextView>
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="20dip"
+		android:layout_marginRight="20dip" android:background="@drawable/round_shap_main_sys_bg" android:layout_gravity="center" android:layout_marginTop="10dip">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#35222222">
+			<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginBottom="6dip"
+				android:layout_marginLeft="10dip" android:layout_marginTop="15dip"
+				android:textSize="16sp" android:text="@string/new_pwd_txt"
+				android:textStyle="bold" />
+
+			<EditText
+			    android:id="@+id/et_new_pwd_1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="10dip"
+			    android:hint="@string/new_pwd_txt"
+			    android:inputType="textPassword"
+			    android:textSize="16sp" >
+
+			</EditText>
+			<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginBottom="6dip"
+				android:layout_marginLeft="10dip" android:layout_marginTop="15dip"
+				android:textSize="16sp" android:text="@string/ensure_new_pwd_txt"
+				android:textStyle="bold" />
+
+			<EditText
+			    android:id="@+id/et_new_pwd_2"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="10dip"
+			    android:hint="@string/new_pwd_txt"
+			    android:inputType="textPassword"
+			    android:textSize="16sp" >
+
+			</EditText>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:gravity="center_horizontal" android:layout_marginTop="8dip">
+
+				<Button
+				    android:id="@+id/bt_new_pwd_ok"
+				    android:layout_width="80dp"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="right"
+				    android:layout_margin="8dip"
+				    android:background="@drawable/login_bt_shap" android:text="@string/txt_sure">
+</Button>
+
+				<Button
+				    android:id="@+id/bt_new_pwd_reset"
+				    android:layout_width="80dp"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="right"
+				    android:layout_margin="8dip"
+				    android:background="@drawable/login_bt_shap"
+				    android:text="@string/txt_reset" >
+</Button>
+			</LinearLayout>
+		</LinearLayout>
+
+	</FrameLayout>
+</LinearLayout>

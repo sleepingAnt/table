@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pic_main_sys_bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/tran_gray"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:background="@color/tran_gray" android:paddingLeft="5dp" android:paddingRight="5dp" android:paddingTop="2dp">
+
+                <TextView
+                    android:id="@+id/tv_latitude"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip" />
+
+                <TextView
+                    android:id="@+id/tv_longitude"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip" />
+
+                <TextView
+                    android:id="@+id/tv_high"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip" />
+
+                <TextView
+                    android:id="@+id/tv_direction"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip" />
+
+                <TextView
+                    android:id="@+id/tv_speed"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip" />
+
+                <TextView
+                    android:id="@+id/tv_gpstime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip" />
+
+                <TextView
+                    android:id="@+id/tv_infotype"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/tran_gray"
+            android:orientation="vertical" android:padding="5dp">
+
+            <Button
+                android:id="@+id/btn_manual"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/login_bt_shap"
+                android:text="@string/btnmanual"
+                android:textSize="25sp" android:layout_marginLeft="50dp" android:layout_marginRight="50dp"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

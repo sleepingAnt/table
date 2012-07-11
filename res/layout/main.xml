@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:id="@+id/mainLayout"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:layout_gravity="top" android:gravity="top" android:weightSum="1" android:background="@drawable/pic_main_sys_bg">
+		<TextView android:id="@+id/main_wellcome" android:text="欢迎使用蚂蚁防盗"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:textColor="#000"
+			android:textSize="30sp" android:layout_marginBottom="60dip"
+			android:layout_marginTop="30dip" android:gravity="center"
+			android:layout_gravity="center" android:textStyle="bold"
+			/>
+		<Button android:id="@+id/bt_login" android:layout_height="wrap_content"
+			android:background="@drawable/main_bt_shap" android:layout_gravity="center"
+			android:text="@string/bt_login_txt" android:gravity="center" android:layout_marginBottom="10dip" android:layout_weight="0.2" android:layout_marginTop="5dip" android:bufferType="normal" android:textColor="@color/coclor_main_bt_txt" android:textStyle="bold" android:textSize="25sp" android:layout_width="fill_parent" android:layout_marginRight="50dp" android:layout_marginLeft="50dp"/>
+		<Button android:id="@+id/bt_ctrl"
+			android:layout_height="wrap_content" android:background="@drawable/main_bt_shap"
+			android:layout_gravity="center" android:text="@string/bt_ctrl_txt" android:focusable="true" android:layout_marginTop="10dip" android:layout_weight="0.2" android:textColor="@color/coclor_main_bt_txt" android:textStyle="bold" android:textSize="25sp" android:layout_width="fill_parent" android:layout_marginLeft="50dp" android:layout_marginRight="50dp"></Button>
+	</LinearLayout>
+
+
+</LinearLayout>

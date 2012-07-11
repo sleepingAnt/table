@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/linearLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/pic_main_sys_bg">
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content" android:id="@+id/textView1"
+		android:layout_height="wrap_content" android:text="功能设置列表"
+		android:layout_marginTop="5dp" android:layout_gravity="center_horizontal" android:textColor="@color/black"></TextView>
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:layout_height="fill_parent" android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_marginBottom="5dp" android:layout_marginTop="5dp" android:background="@drawable/round_shap_main_sys_bg">
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/linearLayout3" android:layout_height="wrap_content"
+			android:layout_weight="1" android:layout_marginBottom="5dp"
+			android:orientation="horizontal">
+			<Button android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="fill_parent"
+				android:layout_marginLeft="10dp" android:layout_marginRight="5dp"
+				android:layout_marginTop="15dp" android:layout_marginBottom="15dp"
+				android:background="@drawable/login_bt_shap" android:text="GPS信息" android:id="@+id/btn_set_panel_gps"></Button>
+			<Button android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="fill_parent"
+				android:layout_marginBottom="15dp" android:layout_marginRight="10dp"
+				android:layout_marginTop="15dp" android:layout_marginLeft="5dp"
+				android:background="@drawable/login_bt_shap" android:text="安全手机" android:id="@+id/btn_set_panel_sms"></Button>
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/linearLayout4" android:layout_height="wrap_content"
+			android:layout_weight="1" android:layout_marginBottom="5dp"
+			android:orientation="horizontal">
+			<Button android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="fill_parent"
+				android:layout_marginLeft="10dp" android:layout_marginRight="5dp"
+				android:layout_marginTop="15dp" android:layout_marginBottom="15dp"
+				android:background="@drawable/login_bt_shap" android:text="安全邮箱" android:id="@+id/btn_set_panel_mail"></Button>
+
+			<Button
+			    android:id="@+id/btn_set_panel_rest_pwd"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_marginBottom="15dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="15dp"
+			    android:layout_weight="1"
+			    android:background="@drawable/login_bt_shap"
+			    android:text="修改密码" >
+</Button>
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/linearLayout5" android:layout_height="wrap_content"
+			android:layout_weight="1" android:layout_marginBottom="5dp"
+			android:orientation="horizontal">
+			<Button android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="fill_parent"
+				android:layout_marginLeft="10dp" android:layout_marginRight="5dp"
+				android:layout_marginTop="15dp" android:layout_marginBottom="15dp"
+				android:background="@drawable/login_bt_shap" android:text="关闭服务" android:id="@+id/btn_set_panel_settings"></Button>
+			<Button android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="fill_parent"
+				android:layout_marginBottom="15dp" android:layout_marginRight="10dp"
+				android:layout_marginTop="15dp" android:layout_marginLeft="5dp"
+				android:background="@drawable/login_bt_shap" android:text="关于" android:id="@+id/btn_set_panel_about"></Button>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

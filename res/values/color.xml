@@ -1,0 +1,15 @@
+<resources>
+
+    <color name="main_bg_start_color">#DA8452</color>
+    <color name="main_bg_end_color">#19332C</color>
+    <color name="bt_pressed_color">#FF006400</color>
+    <color name="bt_foused_color">#FFFFA500</color>
+    <color name="green">#149509</color>
+    <color name="coclor_main_bt_txt">#B4BCC0</color>
+    <color name="gray">#809E9E9E</color>
+    <color name="tran_gray">#99222222</color>
+    <color name="tran_gray_btn">#66ffffff</color>
+    <color name="shadow_color">#6600ff00</color>
+    <color name="black">#000</color>
+
+</resources>
