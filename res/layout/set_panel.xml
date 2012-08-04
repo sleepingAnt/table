@@ -14,26 +14,53 @@
 			android:id="@+id/linearLayout3" android:layout_height="wrap_content"
 			android:layout_weight="1" android:layout_marginBottom="5dp"
 			android:orientation="horizontal">
-			<Button android:layout_width="fill_parent"
-				android:layout_weight="1" android:layout_height="fill_parent"
-				android:layout_marginLeft="10dp" android:layout_marginRight="5dp"
-				android:layout_marginTop="15dp" android:layout_marginBottom="15dp"
-				android:background="@drawable/login_bt_shap" android:text="GPS信息" android:id="@+id/btn_set_panel_gps"></Button>
-			<Button android:layout_width="fill_parent"
-				android:layout_weight="1" android:layout_height="fill_parent"
-				android:layout_marginBottom="15dp" android:layout_marginRight="10dp"
-				android:layout_marginTop="15dp" android:layout_marginLeft="5dp"
-				android:background="@drawable/login_bt_shap" android:text="安全手机" android:id="@+id/btn_set_panel_sms"></Button>
+
+			<Button
+			    android:id="@+id/btn_set_panel_gps"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_marginBottom="15dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="5dp"
+			    android:layout_marginTop="15dp"
+			    android:layout_weight="1"
+			    android:background="@drawable/login_bt_shap"
+			    android:text="GPS信息"
+			    android:textColor="@color/bt_foused_color" >
+</Button>
+
+			<Button
+			    android:id="@+id/btn_set_panel_sms"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_marginBottom="15dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="15dp"
+			    android:layout_weight="1"
+			    android:background="@drawable/login_bt_shap"
+			    android:text="安全手机"
+			    android:textColor="@color/bt_foused_color" >
+</Button>
 		</LinearLayout>
 		<LinearLayout android:layout_width="fill_parent"
 			android:id="@+id/linearLayout4" android:layout_height="wrap_content"
 			android:layout_weight="1" android:layout_marginBottom="5dp"
 			android:orientation="horizontal">
-			<Button android:layout_width="fill_parent"
-				android:layout_weight="1" android:layout_height="fill_parent"
-				android:layout_marginLeft="10dp" android:layout_marginRight="5dp"
-				android:layout_marginTop="15dp" android:layout_marginBottom="15dp"
-				android:background="@drawable/login_bt_shap" android:text="安全邮箱" android:id="@+id/btn_set_panel_mail"></Button>
+
+			<Button
+			    android:id="@+id/btn_set_panel_mail"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_marginBottom="15dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="5dp"
+			    android:layout_marginTop="15dp"
+			    android:layout_weight="1"
+			    android:background="@drawable/login_bt_shap"
+			    android:text="安全邮箱"
+			    android:textColor="@color/bt_foused_color" >
+</Button>
 
 			<Button
 			    android:id="@+id/btn_set_panel_rest_pwd"
@@ -45,23 +72,43 @@
 			    android:layout_marginTop="15dp"
 			    android:layout_weight="1"
 			    android:background="@drawable/login_bt_shap"
-			    android:text="修改密码" >
+			    android:text="修改密码"
+			    android:textColor="@color/bt_foused_color" >
+
 </Button>
 		</LinearLayout>
 		<LinearLayout android:layout_width="fill_parent"
 			android:id="@+id/linearLayout5" android:layout_height="wrap_content"
 			android:layout_weight="1" android:layout_marginBottom="5dp"
 			android:orientation="horizontal">
-			<Button android:layout_width="fill_parent"
-				android:layout_weight="1" android:layout_height="fill_parent"
-				android:layout_marginLeft="10dp" android:layout_marginRight="5dp"
-				android:layout_marginTop="15dp" android:layout_marginBottom="15dp"
-				android:background="@drawable/login_bt_shap" android:text="关闭服务" android:id="@+id/btn_set_panel_settings"></Button>
-			<Button android:layout_width="fill_parent"
-				android:layout_weight="1" android:layout_height="fill_parent"
-				android:layout_marginBottom="15dp" android:layout_marginRight="10dp"
-				android:layout_marginTop="15dp" android:layout_marginLeft="5dp"
-				android:background="@drawable/login_bt_shap" android:text="关于" android:id="@+id/btn_set_panel_about"></Button>
+
+			<Button
+			    android:id="@+id/btn_set_panel_settings"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_marginBottom="15dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="5dp"
+			    android:layout_marginTop="15dp"
+			    android:layout_weight="1"
+			    android:background="@drawable/login_bt_shap"
+			    android:text="关闭服务"
+			    android:textColor="@color/bt_foused_color" >
+</Button>
+
+			<Button
+			    android:id="@+id/btn_set_panel_about"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_marginBottom="15dp"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="15dp"
+			    android:layout_weight="1"
+			    android:background="@drawable/login_bt_shap"
+			    android:text="关于"
+			    android:textColor="@color/bt_foused_color" >
+</Button>
 		</LinearLayout>
 	</LinearLayout>
 </LinearLayout>

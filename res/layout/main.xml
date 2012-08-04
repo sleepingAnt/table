@@ -12,12 +12,42 @@
 			android:layout_marginTop="30dip" android:gravity="center"
 			android:layout_gravity="center" android:textStyle="bold"
 			/>
-		<Button android:id="@+id/bt_login" android:layout_height="wrap_content"
-			android:background="@drawable/main_bt_shap" android:layout_gravity="center"
-			android:text="@string/bt_login_txt" android:gravity="center" android:layout_marginBottom="10dip" android:layout_weight="0.2" android:layout_marginTop="5dip" android:bufferType="normal" android:textColor="@color/coclor_main_bt_txt" android:textStyle="bold" android:textSize="25sp" android:layout_width="fill_parent" android:layout_marginRight="50dp" android:layout_marginLeft="50dp"/>
-		<Button android:id="@+id/bt_ctrl"
-			android:layout_height="wrap_content" android:background="@drawable/main_bt_shap"
-			android:layout_gravity="center" android:text="@string/bt_ctrl_txt" android:focusable="true" android:layout_marginTop="10dip" android:layout_weight="0.2" android:textColor="@color/coclor_main_bt_txt" android:textStyle="bold" android:textSize="25sp" android:layout_width="fill_parent" android:layout_marginLeft="50dp" android:layout_marginRight="50dp"></Button>
+
+		<Button
+		    android:id="@+id/bt_login"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:layout_marginBottom="10dip"
+		    android:layout_marginLeft="50dp"
+		    android:layout_marginRight="50dp"
+		    android:layout_marginTop="5dip"
+		    android:layout_weight="0.2"
+		    android:background="@drawable/gray"
+		    android:bufferType="normal"
+		    android:gravity="center"
+		    android:text="@string/bt_login_txt"
+		    android:textColor="@color/coclor_main_bt_txt"
+		    android:textSize="25sp"
+		    android:textStyle="bold" />
+
+		<Button
+		    android:id="@+id/bt_ctrl"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:layout_marginLeft="50dp"
+		    android:layout_marginRight="50dp"
+		    android:layout_marginTop="10dip"
+		    android:layout_weight="0.2"
+		    android:background="@drawable/gray"
+		    android:focusable="true"
+		    android:text="@string/bt_ctrl_txt"
+		    android:textColor="@color/coclor_main_bt_txt"
+		    android:textSize="25sp"
+		    android:textStyle="bold" >
+
+</Button>
 	</LinearLayout>
 
 
